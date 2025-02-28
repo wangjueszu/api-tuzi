@@ -1,4 +1,4 @@
-# One-api/new-api JSON 比较与合并工具
+# One-api/new-api 倍率 比较与合并工具
 
 一个用于比较和合并 JSON 文件的工具，特别适用于 API 定价模型的管理和更新通知。
 
@@ -10,7 +10,7 @@
 
   ![Markdown格式比较报告](https://ourzhishi.top:7602/apps/sharingpath/nextcloud/public/tu-zi/api-tuzi/github-readme/02.png)
 
-- 生成用于社交媒体的简洁更新日志
+- 生成用于社交媒体的简洁更新通知
 
   ![社交媒体简介更新日志](https://ourzhishi.top:7602/apps/sharingpath/nextcloud/public/tu-zi/api-tuzi/github-readme/03.png)
 
