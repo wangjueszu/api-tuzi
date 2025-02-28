@@ -32,10 +32,10 @@ reports/*
 updates/*
 !updates/.gitkeep
 
-# Actual data files (only include examples)
-tuzi/
-*/
-!examples/
+# Actual data files (不包含真实数据)
+/tuzi/
+/20250228/
+/old/
 
 # Virtual Environment
 venv/

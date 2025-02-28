@@ -1,4 +1,4 @@
-# JSON 比较与合并工具
+# One-api/new-api JSON 比较与合并工具
 
 一个用于比较和合并 JSON 文件的工具，特别适用于 API 定价模型的管理和更新通知。
 
@@ -7,20 +7,41 @@
 - 比较两个文件夹中的 JSON 文件，识别新增、缺失和值不同的键
 - 可选择性地将新数据合并到基准文件中
 - 生成详细的 Markdown 格式比较报告
+
+  ![Markdown格式比较报告](https://ourzhishi.top:7602/apps/sharingpath/nextcloud/public/tu-zi/api-tuzi/github-readme/02.png)
+
 - 生成用于社交媒体的简洁更新日志
+
+  ![社交媒体简介更新日志](https://ourzhishi.top:7602/apps/sharingpath/nextcloud/public/tu-zi/api-tuzi/github-readme/03.png)
+
 - 生成美观的 HTML 格式更新通知，适合网站弹窗显示
+
+  ![HTML通知图片](https://ourzhishi.top:7602/apps/sharingpath/nextcloud/public/tu-zi/api-tuzi/github-readme/01.png)
+
 - 全面的日志记录
+
+
 
 ## 安装
 
 1. 克隆仓库：
 
 ```bash
-git clone https://github.com/your-username/json-compare-tool.git
-cd json-compare-tool
+git clone https://github.com/wangjueszu/api-tuzi.git
+cd api-tuzi
 ```
 
 2. 无需特殊依赖，使用标准 Python 库
+
+3. 如果要使用示例数据进行测试，可以将示例数据复制到工作目录：
+
+```bash
+# 复制示例基准数据（如果工作目录中没有 tuzi 文件夹）
+cp -r examples/tuzi .
+
+# 复制示例比较数据
+cp -r examples/20250101 .
+```
 
 ## 使用方法
 
